@@ -16,4 +16,9 @@ Notebook for extracting galaxy information from IllustrisTNG using the API and t
 
 Dedugging the INTERPOL class and Lensing potentials. I'm still testing these scripts
 
-## 
+## Illustris-information-extraction.ipynb
+Notebook for extracting various information from an Illustris Galaxy
+
+## kappa-to-lenstronomy.ipynb
+Notebook for taking saved convergence/kappa file computed from TNG galaxy (z=0.5) and use in simulating lensed image for given redhsift (z=1.5 i think?) and source galaxy parameters.
+
