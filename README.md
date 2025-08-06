@@ -26,11 +26,16 @@ No success in using the INTERPOL class successfully yet :(
 
 Dedugging the INTERPOL class and Lensing potentials. I'm still testing these scripts!!
 
-## Illustris-to-kappa.py
-Script for computing convergence from stellar mass density projection only. Ignore this file for now.
-
 ## kappa_oberved.npy, x_coord.npy, y_coord.npy
 files containing kappa (lensing convergence) data
+
+## Lenstronomy_kappa_custom.ipynb
+Notebook for comparing custom lensing potential calculation with Lenstonomy's in-built function for pre-defined models for diagnosing the INTERPOL class. My function fails :(. There are simplified assumptions in the lensing potential calculation through Fourier Transform that are liking causing the issues.
+
+Ignore these files : 
+
+## Illustris-to-kappa.py
+Script for computing convergence from stellar mass density projection only. Ignore this file for now.
 
 ## Illustris-kappa-lenstronomy-combined.py
 One complete integrated pipeline from importing the Illustris Galaxy to kappa calculation to simulating lensed images. Some flaws in the script (only takes stellar density that is). Ignore this file.
